@@ -1,0 +1,26 @@
+{
+  "name": "spa-js-vanilla",
+  "version": "1.0.0",
+  "description": "Single Page Application con JavaScriptVanilla",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "marvcoder",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^4.5.1",
+    "webpack": "^4.44.2",
+    "webpack-dev-server": "^3.11.1",
+    "wepack-cli": "0.0.1-security"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}

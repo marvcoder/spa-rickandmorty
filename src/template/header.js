@@ -1,15 +1,13 @@
 const header = () => {
     const view = `
-        <header class="header-main">
-            <section class="header-logo">
-                <h1>
-                    <a href="/">Cientifico</a>
-                </h1>
-            </section>
-        </header>
-        <nav class="header-nav">
-            <a href="#/about/">About</a>
-        </nav>
+            <img src="../src/img/1200px-Rick_and_Morty.svg.png" alt="Logo Rick and Morty">
+            <div class= "header__title-container">
+                <h1>Catálogo de personajes de la serie Rick and Morty</h1>
+                <p>Este landing page te ayuda a navegar entre los diferentes personajes que trae la serie Rick and Morty</p>
+            </div>
+            <nav>
+                <a href="#/about/">About</a>
+            </nav>
     `;
     return view;
 };

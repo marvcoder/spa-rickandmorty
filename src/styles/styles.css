@@ -72,6 +72,9 @@ main{
     min-width: 320px;
     height: auto;
     padding: 20px 10px;
+    grid-template-columns: minmax(auto, 976px);
+    display: grid;
+    justify-content: center;
     background-color: var(--warm-black);
 }
 
@@ -80,7 +83,7 @@ main{
     min-width: 288px;
     max-width: 400px;
     height: auto;
-    margin: 15px auto;
+    margin: auto;
     padding: 15px;
     background-color: var(--black);
     border-radius: 5px;
@@ -99,7 +102,7 @@ main{
     min-width: 288px;
     max-width: 400px;
     height: auto;
-    margin: 15px auto;
+    margin: auto 0;
 }
 .character-card--details h3, span {
     font-size: 1.5rem;
@@ -109,7 +112,6 @@ main{
 }
 /* Page home.js in pages */
 .Character-item {
-  
     text-decoration: none;
     box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
     border-radius: 5px;
